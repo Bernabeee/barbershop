@@ -18,6 +18,20 @@ p {
     font-size: $medium; 
 }
 
+h2 {
+    font-family: $playfair;
+    font-weight: $black;
+    font-style: oblique;
+    font-size: $x-large; 
+}
+
+h4 {
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $large;
+    color: $ruddy-pink; 
+}
+
 .separation-text {
     line-height: 3rem;
 }

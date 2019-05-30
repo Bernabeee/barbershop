@@ -8610,6 +8610,60 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -8628,6 +8682,20 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #d76c69;
 }
 
 .separation-text {
@@ -8651,11 +8719,73 @@ p {
   padding-top: 10%;
 }
 
+.img-round {
+  border-radius: 50%;
+}
+
+.platinum {
+  background-color: #e6e7e7;
+}
+
+.fondo-d {
+  background-color: #121619;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .centro {
+    text-align: center;
+  }
+}
 .botones {
   background-color: #6c6e70;
   color: #ffffff;
   padding: 1rem 2rem;
   border-radius: 7rem;
+}
+.botones:hover {
+  background-color: #d1d1d1;
+  color: #ffffff;
+}
+.botones:active {
+  background-color: #e56353;
+  color: #ffffff;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 25rem;
+  border-bottom-right-radius: 25rem;
+}
+
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-top-left-radius: 25rem;
+  border-bottom-left-radius: 25rem;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #222323;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.page-link:hover {
+  background-color: #d1d1d1;
+  border: 1px solid #d1d1d1;
+  color: #ffffff;
+}
+.page-link:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+}
+.page-link:active {
+  background-color: #d1d1d1;
+  border: 1px solid #d1d1d1;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */

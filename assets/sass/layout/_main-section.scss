@@ -9,3 +9,39 @@
     height: 90vh;
     padding-top: 10%;
 }
+
+
+//Img post
+
+.img-round {
+    border-radius: 50%;
+}
+
+// backgrounds
+
+
+.platinum { 
+    background-color: $platinum;
+}
+
+.fondo-d {
+    background-color: $eerie-black;
+}
+
+// MEDIA QUERY 
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .c-t {text-align: center;}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .c-t {text-align: center;}
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .c-t {text-align: center;}
+}

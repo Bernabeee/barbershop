@@ -1,0 +1,40 @@
+.page-item:last-child .page-link {
+    border-top-right-radius: 25rem;
+    border-bottom-right-radius: 25rem;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 25rem;
+    border-bottom-left-radius: 25rem;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: $raisin-black;
+    background-color: $white;
+    border: 1px solid $white;
+    &:hover {
+
+        background-color: $ligh-gray;
+        border: 1px solid $ligh-gray;
+        color: $white;
+
+    }
+    &:focus {
+        z-index: 2;
+        outline: 0;
+        box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+    }
+
+    &:active {
+
+        background-color: $nickel;
+        border: 1px solid $nickel;
+        color: $white;
+    }
+}
