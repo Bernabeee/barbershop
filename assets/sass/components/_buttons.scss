@@ -2,8 +2,11 @@
 
     background-color: $nickel;
     color: $white;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-radius: 7rem;
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium; 
     &:hover {
         background-color: $ligh-gray;
         color: $white;

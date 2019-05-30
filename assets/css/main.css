@@ -8610,6 +8610,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  background-color: #ffffff;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -8664,6 +8668,10 @@ table {
   border-spacing: 0;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -8698,6 +8706,18 @@ h4 {
   color: #d76c69;
 }
 
+#navegador ul li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+#navegador ul li a:hover {
+  color: #ecbcba;
+}
+#navegador ul li a:active {
+  color: #e56353;
+}
+
 .separation-text {
   line-height: 3rem;
 }
@@ -8715,8 +8735,8 @@ h4 {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 90vh;
-  padding-top: 10%;
+  height: 100vh;
+  padding-top: 20%;
 }
 
 .img-round {
@@ -8732,15 +8752,28 @@ h4 {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .centro {
+  .c-t {
+    text-align: center;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .c-t {
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .c-t {
     text-align: center;
   }
 }
 .botones {
   background-color: #6c6e70;
   color: #ffffff;
-  padding: 1rem 2rem;
+  padding: 1rem;
   border-radius: 7rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 .botones:hover {
   background-color: #d1d1d1;
@@ -8783,8 +8816,8 @@ h4 {
   box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
 }
 .page-link:active {
-  background-color: #d1d1d1;
-  border: 1px solid #d1d1d1;
+  background-color: #6c6e70;
+  border: 1px solid #6c6e70;
   color: #ffffff;
 }
 

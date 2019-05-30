@@ -31,6 +31,17 @@ h4 {
     font-size: $large;
     color: $ruddy-pink; 
 }
+#navegador ul li a {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium; 
+    &:hover {
+        color: $spanish-pink;
+    }
+    &:active {
+        color: $fuzzi-wuzzi;
+    }
+}
 
 .separation-text {
     line-height: 3rem;
