@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog Barbershop</title>
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="#"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -37,46 +40,49 @@
             </div>
         </nav>
 
-        <header>
-            <h1>5 formas de cuidar tu corte de cabello</h1>
+        <header class="header text-white text-center">
+            <div class="container px-5">
+                <h1 class="mt-5">5 formas de cuidar <span class="d-block">tu corte de cabello</span></h1>
+            </div>
         </header>
 
-        <section id="blog">
+        <section id="blog" class="text-muted py-5">
             <div class="container">
-                <p>12 de abril de 2018</p>
-                <p>
+                <h5>12 de abril de 2018</h5>
+                <p class="mt-5 separation-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, 
                     rem, nemo soluta harum temporibus sunt fuga hic tempora corrupti 
                     eos culpa doloremque praesentium, eligendi totam non ratione? 
                     Nihil, soluta perspiciatis?
                 </p>
-                <p>
+                <p class="mt-5 separation-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, 
                     rem, nemo soluta harum temporibus sunt fuga hic tempora corrupti 
                     eos culpa doloremque praesentium, eligendi totam non ratione? 
                     Nihil, soluta perspiciatis?
                 </p>
-                <p>
+                <p class="mt-5 separation-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, 
                     rem, nemo soluta harum temporibus sunt fuga hic tempora corrupti 
                     eos culpa doloremque praesentium, eligendi totam non ratione? 
                     Nihil, soluta perspiciatis?
                 </p>
-                <p>
+                <p class="mt-5 separation-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, 
                     rem, nemo soluta harum temporibus sunt fuga hic tempora corrupti 
                     eos culpa doloremque praesentium, eligendi totam non ratione? 
                     Nihil, soluta perspiciatis?
                 </p>
-                <p>
+                <p class="mt-5 mb-5 separation-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, 
-                    rem, nemo soluta harum <span>temporibus sunt fuga hic</span> tempora corrupti 
+                    rem, nemo soluta harum <span class="resaltado">temporibus sunt fuga hic</span> tempora corrupti 
                     eos culpa doloremque praesentium, eligendi totam non ratione? 
                     Nihil, soluta perspiciatis?
                 </p>
-
-                <a href="">Compartir</a>
-                <a href="">Comentar en Twitter</a>
+                <div class="pt-5">
+                    <a class="botones" href="">Compartir</a>
+                    <a class="botones" href="">Comentar en Twitter</a>
+                </div>
             </div>
 
         </section>
@@ -124,7 +130,7 @@
         </section>
 
         <footer>
-            <img src="assets/img/logo.png" alt="logo footer"/>
+            <img class="logo" src="assets/img/logo.png" alt="logo footer"/>
         </footer>
 
               <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

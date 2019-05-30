@@ -1,0 +1,25 @@
+h1 {
+    font-family: $playfair;
+    font-weight: $black;
+    font-style: oblique;
+    font-size: $xx-large; 
+}
+
+h5 {
+    font-family: $playfair;
+    font-weight: $black;
+    font-style: oblique;
+    font-size: $large; 
+}
+
+p {
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $medium; 
+}
+
+.separation-text {
+    line-height: 3rem;
+}
+
+.resaltado { color: $ruddy-pink;}
